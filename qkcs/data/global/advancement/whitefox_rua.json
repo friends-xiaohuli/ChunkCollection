@@ -1,0 +1,22 @@
+{
+    "display": {
+      "title": "WhiteFox_rua",
+      "description": "是可爱的数据包作者 喵~",
+      "icon": {
+        "id": "minecraft:player_head",
+        "components": {
+          "minecraft:profile": {
+            "name": "WhiteFox_rua"
+          }
+        }
+      },
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "global:root",
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }

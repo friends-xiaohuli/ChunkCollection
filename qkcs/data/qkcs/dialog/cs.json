@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "小狐狸数据包的快捷调试页面！",
+    "type": "text",
+    "color": "#74efdd",
+    "bold": true
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": true,
+  "actions": [
+    {
+      "label": "TempValue1",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "scoreboard objectives setdisplay sidebar TempValue1"
+      }
+    },
+    {
+      "label": "ChunkID",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "scoreboard objectives setdisplay sidebar ChunkID"
+      }
+    }
+  ]
+}

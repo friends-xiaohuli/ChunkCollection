@@ -50,5 +50,7 @@ data remove storage fearker Pos
 scoreboard players reset FE.X TempValue2
 scoreboard players reset FE.y TempValue2
 scoreboard players reset FE.Z TempValue2
+scoreboard players reset FE.NW_X TempValue2
+scoreboard players reset FE.NW_Z TempValue2
 scoreboard players reset FE.Math TempValue2
 scoreboard players reset FE.result TempValue2
